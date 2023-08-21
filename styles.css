@@ -37,7 +37,7 @@ p {
 .dot-img {
     max-width: 100%;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .text-box {
@@ -48,7 +48,14 @@ p {
 
 @media (max-width: 800px) {
     body {
+        margin: 64px 64px 0 64px;
         display: flex;
         flex-direction: column;
+        gap: 64px;
+    }
+
+    .text-box {
+        margin-top: 0;
+        max-width: 100%;
     }
 }
