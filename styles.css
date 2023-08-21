@@ -58,4 +58,17 @@ p {
         margin-top: 0;
         max-width: 100%;
     }
+
+    .img-1 {
+        max-width: 100%;
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 801px) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
