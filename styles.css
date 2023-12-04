@@ -56,6 +56,8 @@ body {
     font-size: 32px;
     border: none;
     min-height: 82px;
+    cursor: pointer;
+
 }
 
 .text-box {
@@ -124,14 +126,11 @@ body {
     }
 
     .button {
-
         width: 200px;
         height: 41px;
-
         border-radius: 36px;
         font-size: 32px;
         border: none;
-
     }
 }
 
@@ -139,7 +138,12 @@ body {
     body {
         display: flex;
         flex-direction: column;
-        gap: 64px;
+        gap: 16px;
+    }
+
+    .main-container {
+        gap: 32px;
+        padding: 16px 16px 0 16px;
     }
 
     .text-box {
