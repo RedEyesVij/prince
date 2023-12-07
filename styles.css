@@ -60,6 +60,10 @@ body {
 
 }
 
+.button:hover {
+    box-shadow: 0px 5px 5px #00000033;
+}
+
 .text-box {
     display: flex;
     flex-direction: column;
